@@ -1,0 +1,195 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fcfcfc;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  min-width: 960px;
+  padding: 0;
+}
+
+#header-wrapper,
+#feature-wrapper,
+#content-wrapper {
+  min-width: 960px;
+}
+
+#header-wrapper {
+  background-color: #FA6900;
+  border-bottom: 1px solid #666;
+  color: #FBFBEF;
+}
+
+#header {
+  margin: 0 auto;
+  width: 950px;
+  padding: 1em 0 1em;
+}
+
+#gsLink {
+	text-decoration: underline;
+	color: #FF6622;
+	font-weight: bold;
+}
+
+span.highlight {
+	font-weight:bold;
+	font-size:smaller;
+
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+h2 p{
+  margin: 0.25em;
+}
+
+h2 .sub {
+  font-size: 0.75em;
+  font-weight: normal;
+}
+
+#feature-wrapper {
+  /*background: #64A4ED -webkit-gradient(radial, center 20%, 0, center center, 800, from(#D4E6FD), to(#64A4ED));
+  background: #F38630;*/
+}
+
+.feature {
+  margin: 1em auto;
+  width: 910px;
+  padding: 20px;
+  background: #ddd;
+  border-bottom: 1px solid white;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-top: 1px solid #aaa;
+}
+
+.feature:after {
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+#intro-video {
+  display: inline;
+  float: left;
+  width: 500px;
+  text-align: center;
+}
+
+#feature-list,
+#bookmarklet {
+  margin-left: 510px;
+}
+
+.feature h4 {
+  font-size: 1.5em;
+  color: #FA6900;
+  margin: 0;
+  text-shadow: 0 1px 0 white;
+}
+
+#feature-list ul {
+  font-size: 1.25em;
+  list-style: none;
+  margin: 1em 0;
+  padding: 0;
+}
+
+#feature-list li {
+  line-height: 1.5;
+}
+
+.bookmarklet {
+  background: #FA6900;
+  background: #FA6900 -moz-linear-gradient(-90deg, #ED954D, #FA6900);
+  background: #FA6900 -webkit-gradient(linear, 0 0, 0 100%, from(#ED954D), to(#FA6900));
+  border: 1px solid #4B240D;  
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  box-shadow: 0 1px 1px white;
+  -moz-box-shadow: 0 1px 1px white;
+  -webkit-box-shadow: 0 1px 1px white;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #4B240D;
+}
+
+.note {
+  color: #333;
+  font-size: 0.9em;
+}
+
+#content {
+  margin: 0 auto;
+  width: 950px;
+}
+
+#content:after {
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+#howto-title {
+  font-family: Georgia, sans-serif;
+  font-size: 1.5em;
+  margin: 1em 0;
+  padding: 0.5em 0;
+  text-align: center;  
+}
+
+#step-1, #step-2, #step-3 {
+  height: 120px;
+}
+
+#step-1, #step-2 {
+  border-right: 1px solid #999;
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  padding: 0 5px;
+  width: 300px;
+text-align: center;
+}
+
+#step-3 {
+  display: inline;
+  width: 300px;  
+  text-align: center;
+}
+
+#content h4 {
+  font-family: Georgia, sans-serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 0;
+  padding: 0.5em 0;
+  text-align: center;
+}
+
+#footer {
+  padding-top: 30px;
+  text-align: center;
+}
+

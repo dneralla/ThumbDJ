@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>ThumbDJ: Play music with a text message</title>
+
+    <!-- Fix relative link base -->
+<!--
+For dev you can use this
+        <script type="text/javascript">document.write('<base href="http://'+"thumbdj.com"+'/" />')</script>
+-->
+	<script type="text/javascript">
+		var PATH = window.location.pathname;
+		PATH = PATH.split("/");
+		PATH[PATH.length-1] = "";
+		PATH = PATH.join("/");
+		var BASE = 'http://' + window.location.hostname+PATH;
+		document.write('<base href="'+BASE+'" />');
+	</script>
+	<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
+
+<!-- Content is loaded based off of pathname -->
+    
+    <script type"text/javascript">
+        $(document).ready(function(){
+            switch(window.location.pathname){
+                case "/blog":
+                  $("#container").load('blog.php'); break;
+                case "/blog/":
+                  $("#container").load('blog.php'); break;
+                default: 
+                  $("#container").load('home.test.html'); break;
+            }
+        });
+    </script>
+
+   </head>
+
+  <body>
+      <div id="header-wrapper">
+        <div id="header">
+          <h2>
+            ThumbDJ <span class="sub">&raquo; Share your taste, not just your library!</span>
+          </h2>
+        </div>
+      </div>
+     <div id="container">
+	</div>
+
+	<div id="footer">
+   		<p>
+		  Problem? Like it? Suggestions?<br>
+		  Email islam (at) thumbdj.com or hani (at) thumbdj.com
+		</p>
+	</div>
+
+   </body>
+</html>

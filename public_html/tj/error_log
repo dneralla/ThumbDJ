@@ -1,0 +1,34 @@
+[05-Nov-2010 19:49:01] PHP Notice:  Undefined index:  From in /home1/thumbjoc/public_html/tj/tjserver11-05.php on line 40
+[05-Nov-2010 19:49:01] PHP Notice:  Undefined index:  Body in /home1/thumbjoc/public_html/tj/tjserver11-05.php on line 41
+[09-Nov-2010 21:41:56] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:43:18] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:00] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:01] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:02] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:03] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:04] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:05] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:06] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:06] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:07] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:07] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:08] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:08] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:09] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:09] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:09] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:09] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:10] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:10] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:11] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:11] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:12] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:12] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home1/thumbjoc/public_html/tj/tjserver.php on line 66
+[09-Nov-2010 21:44:25] PHP Notice:  Undefined index:  From in /home1/thumbjoc/public_html/tj/tjserver.php on line 38
+[09-Nov-2010 21:44:25] PHP Notice:  Undefined index:  Body in /home1/thumbjoc/public_html/tj/tjserver.php on line 39
+[12-Feb-2011 12:32:43] PHP Notice:  Undefined index:  image in /home1/thumbjoc/public_html/test/hani/public_html/tj/search.php on line 104
+[12-Feb-2011 12:32:43] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/thumbjoc/public_html/test/hani/public_html/tj/search.php:104) in /home1/thumbjoc/public_html/test/hani/public_html/tj/txt.php on line 128
+[15-Feb-2011 16:06:48] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/thumbjoc/public_html/test/hani/public_html/tj/txt.php:117) in /home1/thumbjoc/public_html/test/hani/public_html/tj/txt.php on line 135
+[17-Mar-2011 18:18:21] PHP Fatal error:  Call to undefined function  outputpath() in /home1/thumbjoc/public_html/test/hani/public_html/tj/search.php on line 110
+[17-Mar-2011 18:19:10] PHP Fatal error:  Call to undefined function  outputpath() in /home1/thumbjoc/public_html/test/hani/public_html/tj/search.php on line 110
+[17-Mar-2011 18:19:50] PHP Fatal error:  Call to undefined function  getlastpath() in /home1/thumbjoc/public_html/test/hani/public_html/tj/search.php on line 288

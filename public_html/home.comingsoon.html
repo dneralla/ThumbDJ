@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   </head>
+
+  <body>
+<!--
+MIXPANEL CODE
+<script type='text/javascript'> var mp_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://'); document.write(unescape('%3Cscript src="' + mp_protocol + 'api.mixpanel.com/site_media/js/api/mixpanel.js" type="text/javascript"%3E%3C/script%3E')); </script> <script type='text/javascript'> try {  var mpmetrics = new MixpanelLib('adeec431ca9f3fff348d8aecb6024c10'); } catch(err) { null_fn = function () {}; var mpmetrics = {  track: null_fn,  track_funnel: null_fn,  register: null_fn,  register_once: null_fn, register_funnel: null_fn }; } </script>
+
+<script type='text/javascript'> mpmetrics.track("Landing page visit"); </script>
+-->
+
+
+  	<script type="text/javascript">
+	  function explain_bookmarklet()
+	  {
+		alert('Drag this to your Bookmarks Bar to install.');
+		return false;
+	  }   
+
+			$(document).ready(function() {
+				//Dynamically set the href of all bookmarklets in the page to be relative
+				//To the current window.location. This is so that dev versions and the live
+				//version can be the same.
+				var bms = $(".bookmarklet");
+				var loc = window.location.href;
+				//Dynamically set the location of the bookmarklet and current domain
+				$(bms).each(function() {
+					$(this).attr("href", "javascript:(function(){document.DOMAIN='" + window.location.href + "'; document.body.appendChild(document.createElement('script')).src='" + window.location.href + "js/grooveshark.js?nocach='+new%20Date().getTime();})();");
+				});
+			});
+	</script>
+      <div id="feature-wrapper">
+        <div class="feature">
+          <div id="intro-video">
+			 <img  height="385"src="./ThumbDJ.png">
+<!--
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/nF1QThc_LDY?fs=1&amp;hl=en_US&amp;rel=0&amp;hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/nF1QThc_LDY?fs=1&amp;hl=en_US&amp;rel=0&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+-->
+          </div>
+          <div id="feature-list">
+             <h4>
+               Coming in Spring 2011...
+             </h4>
+					<p style="font-size: 1.23em;"><b>T</b>humbDJ works with <a id="gsLink" href="http://www.grooveshark.com">Grooveshark</a>
+					to let your guests <span class="highlight">pick the playlist</span> before the party
+					and in <span class="highlight">real time</span>
+					</p>
+             <ul>
+               <li><b>C</b>ontrol your music through text message
+               </li>
+               <li><b>F</b>riends create the playlist in realtime
+               </li>
+               <li><b>T</b>ext in songs to your friends' playlist
+               </li>
+             </ul>
+             			 <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FThumbDJ%2F174163992594672&amp;width=350&amp;colorscheme=light&amp;connections=12&amp;stream=false&amp;header=false&amp;height=255" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:350px; height:255px; background-color:white" allowTransparency="true"></iframe>
+          </div>
+<!--
+          <div id="bookmarklet">
+			 <br><br>
+            <h4>
+              Coming soon...
+            </h4>
+            <p>Drag <a class="bookmarklet" href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://www.thumbjockit.com/js/grooveshark.js?nocach='+new%20Date().getTime();})();">ThumbDJ Bookmarklet</a> to your bookmarks bar.</p>
+             <p class="note">
+                * Currently works with Firefox, Safari &amp; Chrome
+              </p>
+          </div>
+        </div>
+        
+    -->    
+       
+      </div>
+
+		<div class="feature">
+			<h4 style="text-align:center">
+				See what happens when ThumbDJ is used at your event...
+			</h4>
+			<br>
+			<center>
+			<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/f-apjwYgDag?fs=1&amp;hl=en_US&amp;color1=0xe1600f&amp;color2=0xfebd01"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/f-apjwYgDag?fs=1&amp;hl=en_US&amp;color1=0xe1600f&amp;color2=0xfebd01" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
+			</center>
+		</div>
+      <!--
+      <div id="content-wrapper">
+        <div id="content">
+          <div id="howto-title">
+            Start rocking in <span class="main">3</span> steps!
+          </div>
+          <div id="howto">
+            <div id="step-1">
+              <h4>
+                Step 1
+              </h4>
+              <p>
+                Drag the bookmarklet to your bookmark bar
+              </p>
+            </div>
+            <div id="step-2">
+              <h4>
+                Step 2
+              </h4>
+              <p>
+                Go to <a href="http://www.grooveshark.com">Grooveshark</a> and click the bookmarklet
+              </p>
+            </div>
+            <div id="step-3">
+              <h4>
+                Step 3
+              </h4>
+              <p>
+				Follow the instructions and get the music on!
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+		-->
+   </body>
+</html>
+

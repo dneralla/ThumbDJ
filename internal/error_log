@@ -1,0 +1,1 @@
+[30-Oct-2010 03:25:02] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home1/thumbjoc/internal/cleanup.php on line 11

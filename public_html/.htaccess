@@ -1,0 +1,17 @@
+RewriteEngine On
+
+# disable directory browsing
+Options ExecCGI Includes IncludesNOEXEC SymLinksIfOwnerMatch -Indexes
+
+# prevent folder listing
+IndexIgnore *
+
+# redirect blog
+RewriteRule ^blog/?$ /
+
+# don't let them read out ini file!
+<files *.ini>
+order allow,deny
+deny from all
+</files>
+

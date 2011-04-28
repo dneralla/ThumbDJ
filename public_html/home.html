@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   </head>
+
+  <body>
+  	<script type="text/javascript">
+	  function explain_bookmarklet()
+	  {
+		alert('Drag this to your Bookmarks Bar to install.');
+		return false;
+	  }   
+
+			$(document).ready(function() {
+				//Dynamically set the href of all bookmarklets in the page to be relative
+				//To the current window.location. This is so that dev versions and the live
+				//version can be the same.
+				var bms = $(".bookmarklet");
+				
+				// var base set in index.test.html
+				
+				//Dynamically set the location of the bookmarklet and current domain
+				$(bms).each(function() {
+					$(this).attr("href", "javascript:(function(){document.BASE='" + BASE + "'; document.body.appendChild(document.createElement('script')).src='" + BASE + "js/loadDJ.js?nocache='+new%20Date().getTime();})();");
+				});
+			});
+	</script>
+      <div id="feature-wrapper">
+        <div class="feature">
+          <div id="intro-video">
+
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/nF1QThc_LDY?fs=1&amp;hl=en_US&amp;rel=0&amp;hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/nF1QThc_LDY?fs=1&amp;hl=en_US&amp;rel=0&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+          </div>
+          <div id="feature-list">
+             <h4>
+               ThumbDJ lets you...
+             </h4>
+             <ul>
+               <li><b>P</b>lay music when you are away from the computer
+               </li>
+               <li><b>L</b>et your party pick the playlist
+               </li>
+               <li><b>T</b>ext in songs to your friends' playlist
+               </li>
+             </ul>
+          </div>
+          <div id="bookmarklet">
+            <h4>
+              How to install...
+            </h4>
+            <p>Drag <a class="bookmarklet" href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://www.thumbjockit.com/js/grooveshark.js?nocach='+new%20Date().getTime();})();">ThumbDJ</a> bookmarklet to your bookmarks bar.</p>
+             <p class="note">
+                * Currently works with Firefox, Safari &amp; Chrome
+              </p>
+          </div>
+        </div>
+        
+        
+       
+      </div>
+      
+      <div id="content-wrapper">
+        <div id="content">
+          <div id="howto-title">
+            Start rocking in <span class="main">3</span> steps!
+          </div>
+          <div id="howto">
+            <div id="step-1">
+              <h4>
+                Step 1
+              </h4>
+              <p>
+                Drag the bookmarklet to your bookmark bar
+              </p>
+            </div>
+            <div id="step-2">
+              <h4>
+                Step 2
+              </h4>
+              <p>
+                Go to <a href="http://retro.grooveshark.com">Grooveshark</a> and click the bookmarklet
+              </p>
+            </div>
+            <div id="step-3">
+              <h4>
+                Step 3
+              </h4>
+              <p>
+				Follow the instructions and get the music on!
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+   </body>
+</html>
