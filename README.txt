@@ -1,5 +1,17 @@
 ThumbDJ allows you to queue songs to Grooveshark with a simple text message
 
+
+--------
+
+hani.thumbdj.com
+
+--------
+
+Pretty bad code in here... 
+If you want to take over the project (and delete most of the code :p) let islam.sharabash@gmail.com know.
+--------
+
+
 I took out our keys in the config file, so you would have to get keys / fill those out
 
 The config file is thumbdj.ini in public_html
